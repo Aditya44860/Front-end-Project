@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+
+
+html, body {
+  background-color: #94d7e317;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+@keyframes floatSlow {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+@keyframes floatFast {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-14px); }
+  100% { transform: translateY(0px); }
+}
+
+.text-hover-glow:hover{
+  color: #ffffff;
+  text-shadow: 0 0 5px rgba(251, 240, 227, 0.5);
+}
+
+.text-glow{
+  text-shadow: 0 0 5px rgba(251, 240, 227, 0.5);
+}
+
+.threeD{
+  transition: text-shadow 0.2s ease;
+  transition-delay: 0.3;
+}
+.threeD:hover{
+  text-shadow: 1px 1px 8px rgba(106, 63, 23, 0.494);
+}
+
+.font-balloon {
+  font-family: 'Sour Gummy', sans-serif;
+}
