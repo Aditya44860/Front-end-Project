@@ -151,107 +151,107 @@ const GetStarted = () => {
       </div>
 
       {/* Logos and Testimonial */}
-      <div className="mt-24 text-center">
-        <h3 className="text-2xl font-bold text-gray-900 mb-10">
+      <div className="mt-24 text-center ">
+      <h3 className="text-3xl md:text-5xl text-center font-bold text-gray-900 leading-tight max-w-4xl mx-auto m-25">
           Loved by fast growing companies
         </h3>
 
-        {/* Top Row Images */}
-        <div className="flex justify-center gap-6 mb-6">
-          <img
-            src="https://www.june.so/logos-q3/attio.svg"
-            alt="Top 1"
-            className="w-12 h-12 object-contain"
-          />
-          <img
-            src="https://www.june.so/logos-q3/causal.svg"
-            alt="Top 2"
-            className="w-12 h-12 object-contain"
-          />
-          <img
-            src="https://www.june.so/logos-q3/humaans.svg"
-            alt="Top 3"
-            className="w-12 h-12 object-contain"
-          />
-        </div>
+        {/* Top Row Logos */}
+<div className="flex justify-center gap-24 mb-6">
+  <img
+    src="https://www.june.so/logos-q3/attio.svg"
+    alt="Top 1"
+    className="w-24 h-24 object-contain hover:scale-120"
+  />
+  <img
+    src="https://www.june.so/logos-q3/causal.svg"
+    alt="Top 2"
+    className="w-24 h-24 object-contain hover:scale-120"
+  />
+  <img
+    src="https://www.june.so/logos-q3/humaans.svg"
+    alt="Top 3"
+    className="w-24 h-24 object-contain hover:scale-120"
+  />
+</div>
 
-        {/* Circle Layout */}
-        <div className="flex justify-center items-center gap-6">
-          {/* Left Vertical Images */}
-          <div className="hidden md:flex flex-col justify-between gap-4">
-            <img
-              src="https://www.june.so/logos-q3/knack.svg"
-              alt="Left 1"
-              className="w-10 h-10 object-contain"
-            />
-            <img
-              src="https://www.june.so/logos-q3/reveal.svg"
-              alt="Left 2"
-              className="w-10 h-10 object-contain"
-            />
-            <img
-              src="https://www.june.so/logos-q3/railway.svg"
-              alt="Left 3"
-              className="w-10 h-10 object-contain"
-            />
-          </div>
+{/* Circle Layout */}
+<div className="flex justify-center items-center gap-6">
+  {/* Left Vertical Images */}
+  <div className="hidden md:flex flex-col justify-between gap-4">
+    <img
+      src="https://www.june.so/logos-q3/knack.svg"
+      alt="Left 1"
+      className="w-24 h-24 object-contain hover:scale-120"
+    />
+    <img
+      src="https://www.june.so/logos-q3/reveal.svg"
+      alt="Left 2"
+      className="w-24 h-24 object-contain hover:scale-120"
+    />
+    <img
+      src="https://www.june.so/logos-q3/railway.svg"
+      alt="Left 3"
+      className="w-24 h-24 object-contain hover:scale-120"
+    />
+  </div>
 
-          {/* Testimonial Block */}
-          <div className="bg-[#1B1536] text-white p-6 rounded-xl max-w-md w-full">
-            <p className="text-xl font-semibold">
-              "We're faster at identifying upsell opportunities thanks to
-              June"
-            </p>
-            <div className="mt-4 flex items-center justify-center space-x-3">
-              <img
-                src="https://d3dyfaf3iutrxo.cloudfront.net/thumbnail/user/65a6ed2908524b56ad76fb9c2e5e5c7a.jpeg"
-                alt="Aditya"
-                className="w-10 h-10 rounded-full"
-              />
-              <span className="text-sm text-gray-300">
-                Made By Aditya Bhardwaj
-              </span>
-            </div>
-          </div>
+  {/* Center Testimonial */}
+  <div className="flex-[2] bg-[#1B1536] text-white py-25 rounded-xl max-w-2xl w-full px-6">
+    <p className="text-xl font-semibold text-center">
+      "We're faster at identifying upsell opportunities thanks to June"
+    </p>
+    <div className="mt-4 flex items-center justify-center space-x-3">
+      <img
+        src="https://d3dyfaf3iutrxo.cloudfront.net/thumbnail/user/65a6ed2908524b56ad76fb9c2e5e5c7a.jpeg"
+        alt="Aditya"
+        className="w-10 h-10 rounded-full"
+      />
+      <span className="text-sm text-gray-300">
+        Made By Aditya Bhardwaj
+      </span>
+    </div>
+  </div>
 
-          {/* Right Vertical Images */}
-          <div className="hidden md:flex flex-col justify-between gap-4">
-            <img
-              src="https://www.june.so/logos-q3/rootly.svg"
-              alt="Right 1"
-              className="w-10 h-10 object-contain"
-            />
-            <img
-              src="https://www.june.so/logos-q3/snackmagic.svg"
-              alt="Right 2"
-              className="w-10 h-10 object-contain"
-            />
-            <img
-              src="https://www.june.so/logos-q3/tacto.svg"
-              alt="Right 3"
-              className="w-10 h-10 object-contain"
-            />
-          </div>
-        </div>
+  {/* Right Vertical Images */}
+  <div className="hidden md:flex flex-col justify-between gap-4">
+    <img
+      src="https://www.june.so/logos-q3/rootly.svg"
+      alt="Right 1"
+      className="w-24 h-24 object-contain hover:scale-120"
+    />
+    <img
+      src="https://www.june.so/logos-q3/snackmagic.svg"
+      alt="Right 2"
+      className="w-24 h-24 object-contain hover:scale-120"
+    />
+    <img
+      src="https://www.june.so/logos-q3/tacto.svg"
+      alt="Right 3"
+      className="w-24 h-24 object-contain hover:scale-120"
+    />
+  </div>
+</div>
 
-        {/* Bottom Row Images */}
-        <div className="flex justify-center gap-6 mt-6">
-          <img
-            src="https://www.june.so/logos-q3/vessl.svg"
-            alt="Bottom 1"
-            className="w-12 h-12 object-contain"
-          />
-          <img
-            src="https://www.june.so/logos-q3/xano.svg"
-            alt="Bottom 2"
-            className="w-12 h-12 object-contain"
-          />
-          <img
-            src="https://www.june.so/logos-q3/attio.svg"
-            alt="Bottom 3"
-            className="w-12 h-12 object-contain"
-          />
-        </div>
+{/* Bottom Row Logos */}
+<div className="flex justify-center gap-24 mt-6">
+  <img
+    src="https://www.june.so/logos-q3/vessl.svg"
+    alt="Bottom 1"
+    className="w-24 h-24 object-contain hover:scale-120"
+  />
+  <img
+    src="https://www.june.so/logos-q3/xano.svg"
+    alt="Bottom 2"
+    className="w-24 h-24 object-contain hover:scale-120"
+  />
+  <img
+    src="https://www.june.so/logos-q3/attio.svg"
+    alt="Bottom 3"
+    className="w-24 h-24 object-contain hover:scale-120"
+  />
+</div>
+
       </div>
     </div>
   );

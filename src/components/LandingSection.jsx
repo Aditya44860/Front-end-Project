@@ -110,15 +110,15 @@ const LandingSection = () => {
 
       {/* Footer Navbar */}
       <footer className="text-center py-6 px-4 text-sm text-gray-700 flex flex-wrap justify-center gap-x-8 gap-y-4 border-t border-gray-200">
-        <a href="#" className="hover:text-gray-900 transition-colors">Blog</a>
-        <a href="#" className="hover:text-gray-900 transition-colors">Docs</a>
-        <a href="#" className="hover:text-gray-900 transition-colors">Attio integration</a>
-        <a href="#" className="hover:text-gray-900 transition-colors">Privacy</a>
-        <a href="#" className="hover:text-gray-900 transition-colors">Security</a>
-        <a href="#" className="hover:text-gray-900 transition-colors">HubSpot integration</a>
-        <a href="#" className="hover:text-gray-900 transition-colors">Benchmarks</a>
-        <a href="#" className="hover:text-gray-900 transition-colors">Salesforce integration</a>
-        <a href="#" className="hover:text-gray-900 transition-colors">Terms</a>
+        <a href="#" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">Blog</a>
+        <a href="#" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">Docs</a>
+        <a href="#" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">Attio integration</a>
+        <a href="#" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">Privacy</a>
+        <a href="#" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">Security</a>
+        <a href="#" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">HubSpot integration</a>
+        <a href="#" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">Benchmarks</a>
+        <a href="#" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">Salesforce integration</a>
+        <a href="#" className="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-gray-800 after:transition-all after:duration-300 hover:after:w-full">Terms</a>
       </footer>
     </div>
   );
