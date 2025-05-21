@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 const GetStarted = () => {
   return (
-    <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-white py-16 px-4 sm:px-6 lg:px-8 overflow-x-hidden">
       <h3 className="text-4xl md:text-6xl text-center font-bold text-gray-900 leading-tight max-w-4xl mx-auto">
         How to get started
       </h3>
       
-      <div className="mt-20 grid md:grid-cols-2 gap-16 items-start w-full max-w-5xl mx-auto">
+      <div className="mt-20 grid md:grid-cols-2 gap-16 items-start w-full max-w-5xl mx-auto relative">
         {/* Left Block */}
         <div className="relative flex flex-col items-center text-center">
           <div className="flex items-center justify-center">
@@ -38,7 +38,7 @@ const GetStarted = () => {
           </div>
 
           {/* Positioned Images */}
-          <div className="absolute" style={{ top: "-80px", left: "-90px", zIndex: 1 }}>
+          <div className="absolute hidden md:block" style={{ top: "-80px", left: "-90px", zIndex: 1 }}>
             <motion.img
               src="https://www.june.so/home/get-started/avatar2.svg"
               alt="Left Image 1"
@@ -52,7 +52,7 @@ const GetStarted = () => {
             />
           </div>
           
-          <div className="absolute" style={{ top: "0px", right: "-690px", zIndex: 1 }}>
+          <div className="absolute hidden lg:block" style={{ top: "0px", right: "-690px", zIndex: 1 }}>
             <motion.img
               src="https://www.june.so/home/get-started/gdpr.svg"
               alt="Left Image 2"
@@ -97,7 +97,7 @@ const GetStarted = () => {
           </div>
 
           {/* Positioned Images */}
-          <div className="absolute" style={{ top: "160px", left: "-720px", zIndex: 1 }}>
+          <div className="absolute hidden lg:block" style={{ top: "160px", left: "-720px", zIndex: 1 }}>
             <motion.img
               src="https://www.june.so/home/get-started/avatar1.svg"
               alt="Right Image 1"
@@ -112,7 +112,7 @@ const GetStarted = () => {
             />
           </div>
           
-          <div className="absolute" style={{ top: "100%", right: "-100px", zIndex: 1 }}>
+          <div className="absolute hidden md:block" style={{ top: "100%", right: "-100px", zIndex: 1 }}>
             <motion.img
               src="https://www.june.so/home/get-started/avatar3.svg"
               alt="Right Image 2"
@@ -157,7 +157,7 @@ const GetStarted = () => {
         </h3>
 
         {/* Top Row Logos */}
-<div className="flex justify-center gap-24 mb-6">
+<div className="flex justify-center gap-8 md:gap-16 lg:gap-24 mb-6">
   <img
     src="https://www.june.so/logos-q3/attio.svg"
     alt="Top 1"
@@ -234,7 +234,7 @@ const GetStarted = () => {
 </div>
 
 {/* Bottom Row Logos */}
-<div className="flex justify-center gap-24 mt-6">
+<div className="flex justify-center gap-8 md:gap-16 lg:gap-24 mt-6">
   <img
     src="https://www.june.so/logos-q3/vessl.svg"
     alt="Bottom 1"
